@@ -15,7 +15,6 @@ import {
 const App = () => {
   const { logout, user } = useAuth0();
   const navigate = useNavigate();
-
   return (
     <div className="container my-4">
       <Card>
